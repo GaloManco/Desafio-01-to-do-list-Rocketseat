@@ -1,4 +1,8 @@
+
 import { Header } from './components/Header';
+import { Conteudo} from './components/Conteudo';
+
+import style from './App.module.css';
 import './global.css';
 
 function App() {
@@ -6,7 +10,14 @@ function App() {
 
   return (
     <>
-      <Header/>
+      <div className={style.container}>
+          <Header />
+
+
+          <Conteudo />
+
+      </div>
+
     </>
   )
 }

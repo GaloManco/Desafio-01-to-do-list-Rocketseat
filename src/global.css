@@ -22,12 +22,17 @@
 }
 body{
     
-    background: var(--gray-600);
-    display: grid;
-
+    background: var(--gray-500);
     -webkit-font-smoothing: antialiased;
-    color: var(--white)
+    color: var(--white);
+    font-family: inter;
+}
+
+
+
+
+
+
 
 
     
-}

@@ -1,0 +1,12 @@
+
+.container{
+    display: grid;
+    grid-template-columns: 90rem;
+    grid-template-rows: 12.5rem 51.5rem;
+
+    justify-content: center;
+    margin-top: 3.13rem;
+}
+
+
+
