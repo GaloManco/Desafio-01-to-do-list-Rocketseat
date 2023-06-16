@@ -1,4 +1,89 @@
 .content{
     background: var(--gray-600);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
     
+
+    
+}
+main{
+    width: 46rem;
+    height: 17.94rem;
+}
+.contElementos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    
+}
+.contElementos strong{
+    letter-spacing: 0.06rem;
+    color: var(--Blue);
+    font-weight: bold;
+}
+.contElementos  span{
+    letter-spacing: 0.06rem;
+    font-weight: bold;
+    color: var(--PurpleDark);
+    
+}
+.canteinerTarefas{
+    display: flex;
+    gap: 0.62rem;
+}
+.numeros{
+
+    display: flex;
+    justify-content: center;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    width: 1.56rem;
+    height: 1.18rem;
+
+    border-radius: 999px;
+
+    font-weight: bold;
+    font-size: 0.87rem;
+   
+
+
+}
+
+
+.elementos{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+
+}
+.elementos img{
+    margin-bottom: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.elementos strong{
+   
+    color: var(--gray-300);
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    letter-spacing: 0.06rem;
+}
+.texto02{
+    letter-spacing: 0.06rem;
+    color: var(--gray-300);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+   
 }

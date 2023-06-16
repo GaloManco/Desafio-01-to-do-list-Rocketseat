@@ -1,0 +1,61 @@
+.containerForm {
+    width: 46rem;
+    height: 3.37rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: -1.62rem;
+
+}
+.containerForm input{
+    width: 39.87rem;
+    height: 3.37rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    padding: 1rem;
+    background: var(--gray-500);
+
+    font-size: 16px;
+    outline: none;
+    color: var(--white);
+
+}
+.containerForm input:focus::placeholder{
+    color: var(--gray-300);
+}
+.containerForm input:focus{
+    color: var(--white);
+    border: 1px solid var(--PurpleDark);
+    font-size: 20px;
+    
+}
+.containerForm input::placeholder{
+    color: var(--gray-300);
+}
+.containerForm input:hover{
+    border: 1px solid var(--PurpleDark);
+    
+    
+}
+
+
+
+.containerForm button{
+    background: var(--BlueDark);
+    width: 5.62rem;
+    height: 3.25rem;
+
+    border-radius: 8px;
+    border: none;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--gray-100);
+    gap: 0.5rem;
+}
+.containerForm button:hover{
+    background: var(--Blue);
+}
