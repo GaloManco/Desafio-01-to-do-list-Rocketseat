@@ -12,9 +12,9 @@ function App() {
     <>
       <div className={style.container}>
           <Header />
-
-
           <Conteudo />
+
+
 
       </div>
 

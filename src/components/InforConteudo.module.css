@@ -1,16 +1,4 @@
-.content{
-    background: var(--gray-600);
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-    
-    
-
-    
-}
-/* main{
+main{
     width: 46rem;
     height: 17.94rem;
 }
@@ -87,4 +75,4 @@
     
     
    
-} */
+}

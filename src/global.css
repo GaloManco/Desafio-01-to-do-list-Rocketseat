@@ -1,4 +1,6 @@
 :root {
+    
+
     --white: #ffffff;
     --gray-100:#F2F2F2;
     --gray-200:#d9d9d9;
@@ -13,6 +15,7 @@
     --BlueDark:#1E6F9F;
     --Danger:#E25858;
 
+
 }
 *{
     margin-top: 0;
@@ -21,7 +24,7 @@
     
 }
 body{
-    
+
     background: var(--gray-500);
     -webkit-font-smoothing: antialiased;
     color: var(--white);
