@@ -7,13 +7,52 @@ import { ListConteudo } from './ListConteudos';
 import style from './Content.module.css';
 
 
-export function Conteudo(){
+export function Conteudo({
+    onTexto, 
+    onButton, 
+    listElementos, 
+    limparForm, 
+    contTexto, 
+    deletarElemento,
+    tarefaCompleta,
+    onChecked,
+    
+}){
+
+
+
+
     return (
         <article className={style.content}>
             
-            <Formulario />
-            {/* <InforConteudo /> */}
-            <ListConteudo />
+            <Formulario 
+                onTexto={onTexto} 
+                onButton={onButton}
+                limparFormularo={limparForm}
+                contTexto={contTexto}
+               
+            />
+            {listElementos.length == 0 ? 
+            (   
+                <InforConteudo />  
+            ):
+            (
+                <ListConteudo 
+                listElementos={listElementos}
+                deletarElemento={deletarElemento}
+                tarefaCompleta={tarefaCompleta}               
+                />
+            )}
+                
+           
+            
+            
+            
+ 
+         
+                
+            
+            
            
             
         </article>

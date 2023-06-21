@@ -7,6 +7,14 @@
     margin-top: -1.62rem;
 
 }
+.containerForm form{
+    width: 46rem;
+    height: 3.37rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: -1.62rem;
+}
 .containerForm input{
     width: 39.87rem;
     height: 3.37rem;
@@ -60,4 +68,8 @@
 }
 .containerForm button:hover{
     background: var(--Blue);
+}
+
+.containerForm button:disabled{
+    background: var(--BlueDark2);
 }
